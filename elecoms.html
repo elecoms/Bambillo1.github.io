@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<!--Code By Webdevtrick ( https://webdevtrick.com )-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Latest Computer Programming With Bambillo | elecoms.com</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel ="stylesheet" href="carousel.css">
+    <link rel = "stylesheet" href = "menu.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f342929f9f.js" crossorigin="anonymous"></script>
+    <!--Important link source from https://bootsnipp.com/snippets/ooa9M-->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel = "JavaScript" type = "text/JavaScript" href = "carousel.js">
+</head>
+<body>
+   <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">ElecomsCoding</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+                <div class="socialMediaLinks">
+                    <a href="https://twitter.com" class="fab fa-twitter"></a>
+                     <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                    <a href="https://pinterest.com" class="fab fa-pinterest"></a>
+                    <a href="https://instagram.com" class="fab fa-instagram"></a>  
+                </div>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const navLink = document.querySelectorAll(".nav-link");
+
+hamburger.addEventListener("click", mobileMenu);
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+    </script>
+
+<div style='text-align:center;'>
+<h3 style='text-align: center;margin: 55px 0px;border-bottom: 2px solid #666; display:inline-block;padding-bottom:10px'>Check Us Out!</h3>
+</div>
+    <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">  
+                <div class="carousel-caption">
+                  <h3>One-on-One Session</h3>
+                  <p>We are freely accessible to you.</p>
+                </div>
+            </div>
+            <div class="item"> 
+                <div class="carousel-caption">
+                  <h3>Sufficient Test </h3>
+                  <p>You are not leaving until you are really certified.</p>
+                </div>
+            </div>
+            <div class="item"> 
+                <div class="carousel-caption">
+                  <h3>online Tutoring</h3>
+                  <p>We have resources to teach even if you're miles away.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+<div class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                <h3> Courses  </h3>
+                <ul>
+                    <li> <a href="#"> Python  </a> </li>
+                    <li> <a href="#"> Java </a> </li>
+                    <li> <a href="#"> C++ </a> </li>
+                    <li> <a href="#"> Machine Learning & Deep Learning </a> </li>
+                     <li> <a href="#"> Computer Vision </a> </li>
+                      <li> <a href="#"> Web Development </a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                <h3> Consultancy </h3>
+                <ul>
+                    <li> <a href="#"> Academic Projects  </a> </li>
+                    <li> <a href="#">Academic Conferences  </a> </li>
+                    <li> <a href="#">Web Hosting </a> </li>
+                    <li> <a href="#"> Online Examination </a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                <h3> Other Services </h3>
+                <ul>
+                    <li> <a href="#">Apps Design  </a> </li>
+                    <li> <a href="#"> ICT Training </a> </li>
+                    <li> <a href="#"> Graphic Design </a> </li>
+                    <li> <a href="#">Telecommunication Services </a> </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                        <h3> Locate us </h3>
+                        <ul>
+                            <li> <a href="#">+234-803-069-6621 </a> </li>
+                            <li> <a href="#">16, Kampala Street,  </a> </li>
+                            <li> <a href="#"> Off Adetokunbo Ademola Crescent</a> </li>
+                            <li> <a href="#">Wuse II, Abuja </a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                        <h3> Contact Us </h3>
+                        <ul>
+                            <li>
+                                <div class="input-append newsletter-box text-center">
+                                    <input type="text" class="full text-center" placeholder="Email ">
+                                    <button class="btn  bg-gray" type="button"> Send <i class="fa fa-long-arrow-right"> </i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+        
+                    </div>
+                    <!--/.row-->
+                    </div>
+                    <!--/.container-->
+                    </div>
+                    <!--/.footer-->
+                    
+                    <div class="footer-bottom">
+                        <div class="container">
+                            <p class="pull-left"> Copyright © Footer Programming With Bambillo 2021. All right reserved. </p>
+                        </div>
+                        </div>
+                    
+                    <!--/.footer-bottom-->
+                    </footer>
+
+</body>
+
+</html>
